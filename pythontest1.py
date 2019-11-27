@@ -1,14 +1,5 @@
 import random
 
-hangman=""
-angman="---"
-angman="| "
-angman=" | |"
-angman=" | O"
-
-
-
-
 def loadWordFromDoc():
     try:
         word=""
