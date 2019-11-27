@@ -32,7 +32,8 @@ def guessTheLetter():
                 attempts= attempts -i
                 print ("try again you got "+ str(attempts))
                 letter=input("what is the letter")
-
+def newfunction():
+    print ( "hello" )
 randomNumber=random.randrange(1,3)
 countAttempts=3
 attempts=3
