@@ -1,12 +1,12 @@
 import random
 
+
 def loadWordFromDoc():
     try:
-        word=""
-        index=0
-
-        print (randomNumber)
-        with open ('C:\\Users\\pc caeshica\\Documents\\palabras.txt',"r") as f:
+        word = ""
+        index = 0
+        print ( randomNumber )
+        with open ( 'C:\\Users\\pc caeshica\\Documents\\palabras.txt' , "r" ) as f:
             for line in f:
                 index=index + 1
                 if randomNumber == index:
@@ -32,8 +32,10 @@ def guessTheLetter():
                 attempts= attempts -i
                 print ("try again you got "+ str(attempts))
                 letter=input("what is the letter")
-    
+
 randomNumber=random.randrange(1,3)
 countAttempts=3
 attempts=3
-guessTheLetter()
+
+if __name__ == '__main__':
+    guessTheLetter()  
