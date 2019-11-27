@@ -6,7 +6,7 @@ def loadWordFromDoc():
         word = ""
         index = 0
         print ( randomNumber )
-        with open ( 'C:\\Users\\pc caeshica\\Documents\\palabras.txt' , "r" ) as f:
+        with open ( 'palabras.txt' , "r" ) as f:
             for line in f:
                 index=index + 1
                 if randomNumber == index:
